@@ -1,6 +1,7 @@
-$bg-overlay-1: rgba(255,0,120,.5);
-$bg-overlay-2: rgba(25,120,220,.5);
+//$bg-overlay-1: rgba(255,0,120,.5);
+//$bg-overlay-2: rgba(25,120,220,.5);
 $opposite-bg-overlay-hover: rgba(0,0,0,.65);
+$opposite-bg-overlay-hover1: rgba(0,0,0,0);
 $bg-width-on-hover: 85%;
 
 $trans-bg-move:       '500ms all ease-in-out';
@@ -84,7 +85,7 @@ a.cta
 
 .container
 {
-  background: rgb(51, 255, 0);
+  //background: rgb(51, 255, 0);
   width: 100%;
   height: 100%;
   position: relative;
@@ -106,7 +107,8 @@ a.cta
         content: '';
         width: 100%;
         height: 100%;
-        background: $bg-overlay-1;
+        //background: $bg-overlay-1;
+        //background: $opposite-bg-overlay-hover;
         position: absolute;
       }
     }
@@ -120,7 +122,8 @@ a.cta
         content: '';
         width: 100%;
         height: 100%;
-        background: $bg-overlay-2;
+        //background: $bg-overlay-2;
+        //background: $opposite-bg-overlay-hover;
         position: absolute;
       }
     }
