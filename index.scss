@@ -85,7 +85,6 @@ a.cta
 
 .container
 {
-  //background: rgb(51, 255, 0);
   width: 100%;
   height: 100%;
   position: relative;
@@ -97,6 +96,19 @@ a.cta
     height: 100%;
     overflow: hidden;
     
+    #videoleft, #videoright
+    {
+      position: absolute;
+      top: 0px;
+      width: auto; 
+      height: auto;
+
+      min-width: 100%;
+      min-height: 100%;
+      overflow: hidden;
+      z-index: -4;
+    }
+
     &.left
     {
       cursor: pointer;
@@ -107,8 +119,6 @@ a.cta
         content: '';
         width: 100%;
         height: 100%;
-        //background: $bg-overlay-1;
-        //background: $opposite-bg-overlay-hover;
         position: absolute;
       }
     }
